@@ -39,12 +39,11 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pa
-
 PRODUCT_PACKAGES += \
-    AOSPAAliothFrameworks
+    AOSPAAliothFrameworks \
+    AOSPAAliothSystemUI \
+    AliothFrameworks \
+    AliothSystemUI
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
